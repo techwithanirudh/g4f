@@ -1,0 +1,18 @@
+VENV_NAME=venv
+
+python -m venv "${VENV_NAME}"
+source "${VENV_NAME}/bin/activate"
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+
+cat << EOF_INSTALL
+
+To activate the virtual environment, run:
+
+    source ${VENV_NAME}/bin/activate
+
+To deactivate the virtual environment, run:
+
+    deactivate
+
+EOF_INSTALL
