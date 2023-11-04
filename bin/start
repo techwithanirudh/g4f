@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+PYTHONUNBUFFERED=TRUE python g4f.api.run
