@@ -20,3 +20,4 @@ pillow
 platformdirs
 numpy
 asgiref
+g4f
